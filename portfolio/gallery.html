@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Muhammad Ubaid Ullah</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <div class="navbar">
+        <div class="site-name">Muhammad Ubaid Ullah</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="page-title">
+        <h1>Image Gallery</h1>
+        <p>Screenshots of my projects and my university</p>
+    </div>
+
+    <div class="main-content-wide">
+
+        <h2>Project Snapshots</h2>
+
+        <!--
+            Gallery layout uses float: left on each .gallery-item
+            and clear: both on .gallery-clear to reset flow between rows.
+            This satisfies the lab requirement: "Arrange the image gallery
+            using float and clear."
+        -->
+        <div class="gallery-row">
+
+            <div class="gallery-item">
+                <img src="images/turbofan_rul.jpg" alt="Turbofan Engine RUL Prediction Dashboard">
+                <div class="caption">
+                    <h3>Turbofan Engine RUL Prediction</h3>
+                    <p>Streamlit dashboard with live engine degradation simulation and SHAP explainability.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/pakistan_property.png" alt="Pakistan Property Price Predictor">
+                <div class="caption">
+                    <h3>Pakistan Property Price Predictor</h3>
+                    <p>Interactive dashboard showing market overview, city comparison, and live price predictions.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/bloodscan.png" alt="BloodScan AI">
+                <div class="caption">
+                    <h3>BloodScan AI</h3>
+                    <p>Clinical ML dashboard for blood cell anomaly detection across 19 cell types.</p>
+                </div>
+            </div>
+
+            <!-- clear: both resets float after the first row -->
+            <div class="gallery-clear"></div>
+
+            <div class="gallery-item">
+                <img src="images/t20_cricket.png" alt="T20I Cricket Match Predictor">
+                <div class="caption">
+                    <h3>T20I Cricket Match Predictor</h3>
+                    <p>Predicting T20 match outcomes using ELO ratings and 18 years of historical data.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/hospital_management.png" alt="Hospital Management System">
+                <div class="caption">
+                    <h3>Hospital Management System</h3>
+                    <p>JavaFX GUI built for NUST Medical Centre with MySQL, PDF generation, and email alerts.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/seecs.jpg" alt="NUST SEECS Campus">
+                <div class="caption">
+                    <h3>NUST SEECS Campus</h3>
+                    <p>National University of Sciences and Technology, H-12 Islamabad &mdash; where I study.</p>
+                </div>
+            </div>
+
+            <!-- clear: both resets float after the second row -->
+            <div class="gallery-clear"></div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Muhammad Ubaid Ullah &mdash; NUST SEECS, Islamabad &nbsp;|&nbsp; mullah.bsds24seecs@seecs.edu.pk
+    </footer>
+
+</body>
+</html>
