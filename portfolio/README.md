@@ -10,9 +10,7 @@
 
 ## Live Site
 
-> https://YOUR-USERNAME.github.io/portfolio/
-
-*(Replace YOUR-USERNAME with your GitHub username after deploying)*
+> https://Ubaidcode11.github.io/portfolio/
 
 ---
 
@@ -63,10 +61,3 @@ portfolio/
 
 ---
 
-## How to Deploy on GitHub Pages
-
-1. Create a new GitHub repository named `portfolio`
-2. Push all files maintaining the folder structure above
-3. Go to **Settings → Pages**
-4. Under **Source**, select `main` branch and `/ (root)` folder
-5. Click **Save** — your site will be live at `https://YOUR-USERNAME.github.io/portfolio/`
